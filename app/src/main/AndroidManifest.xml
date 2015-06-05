@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jonatanperez.c4a" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -40,6 +42,16 @@
             android:name=".SubirImagen"
             android:label="@string/title_activity_subir_imagen" >
         </activity>
+        <activity
+            android:name=".activity_pregunta"
+            android:label="@string/title_activity_activity_pregunta" >
+        </activity>
+
+        <service
+            android:name=".Connect"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
     </application>
 
 </manifest>

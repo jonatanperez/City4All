@@ -40,7 +40,7 @@ public class PantallaCuando extends Activity {
                 //Creamos el Intent
                 Intent intent;
                 if(cuando == true) {
-                    intent = new Intent(PantallaCuando.this, PreguntaEscala.class);
+                    intent = new Intent(PantallaCuando.this, activity_pregunta.class);
                 } else {
                     //Llamar a la pantalla del mapa
                     intent = new Intent(PantallaCuando.this, PreguntaCheck.class);

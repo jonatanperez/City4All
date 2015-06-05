@@ -14,6 +14,42 @@
         android:layout_row="0"
         android:layout_column="0" />
 
+    <RadioGroup
+        android:layout_width="266dp"
+        android:layout_height="194dp"
+        android:orientation="vertical"
+        android:layout_row="1"
+        android:layout_column="0">
+
+        <RadioButton android:id="@+id/Rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Respuesta 1"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <RadioButton android:id="@+id/Rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Respuesta 2"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <RadioButton android:id="@+id/Rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Respuesta 3"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <RadioButton android:id="@+id/Rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Respuesta 4"
+            android:layout_row="4"
+            android:layout_column="0" />
+    </RadioGroup>
+
     <Button android:id="@+id/BtnAnterior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,51 +67,17 @@
     <ImageButton android:id="@+id/BtnAnterior2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@android:drawable/ic_menu_revert"
+        android:drawableLeft="@drawable/ic_backarrow"
         android:layout_row="6"
         android:layout_column="0"
-        />
+        android:src="@drawable/ic_backarrow" />
 
     <ImageButton android:id="@+id/BtnSiguiente2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@android:drawable/ic_media_next"
+        android:drawableLeft="@drawable/ic_nextarrow"
         android:layout_row="6"
         android:layout_column="1"
-        />
-
-    <RadioGroup
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical">
-
-        <RadioButton android:id="@+id/Rb4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Respuesta 4"
-            android:layout_row="4"
-            android:layout_column="0" />
-
-        <RadioButton android:id="@+id/Rb3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Respuesta 3"
-            android:layout_row="3"
-            android:layout_column="0" />
-
-        <RadioButton android:id="@+id/Rb2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Respuesta 2"
-            android:layout_row="2"
-            android:layout_column="0" />
-
-        <RadioButton android:id="@+id/Rb1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Respuesta 1"
-            android:layout_row="1"
-            android:layout_column="0" />
-    </RadioGroup>
+        android:src="@drawable/ic_nextarrow" />
 
 </GridLayout>

@@ -72,17 +72,17 @@
     <ImageButton android:id="@+id/BtnAnterior2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@android:drawable/ic_menu_revert"
+        android:drawableLeft="@drawable/ic_backarrow"
         android:layout_row="3"
         android:layout_column="0"
-        />
+        android:src="@drawable/ic_backarrow" />
 
     <ImageButton android:id="@+id/BtnSiguiente2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@android:drawable/ic_media_next"
+        android:drawableLeft="@drawable/ic_nextarrow"
         android:layout_row="3"
         android:layout_column="1"
-        />
+        android:src="@drawable/ic_nextarrow" />
 
 </GridLayout>

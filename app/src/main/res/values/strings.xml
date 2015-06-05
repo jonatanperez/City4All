@@ -29,5 +29,7 @@
     <string name="sacarFoto">Sacar foto</string>
     <string name="seleccionarGaleria">Seleccionar de la galería</string>
     <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="title_activity_activity_pregunta">activity_pregunta</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

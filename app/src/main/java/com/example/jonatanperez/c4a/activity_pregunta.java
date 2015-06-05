@@ -1,31 +1,38 @@
 package com.example.jonatanperez.c4a;
 
-import android.app.ActionBar;
-import android.app.Activity;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.RadioButton;
+import android.view.View;
 
 
-public class PreguntaRadio extends Activity {
+public class activity_pregunta extends ActionBarActivity {
+
+    private ViewPager paginador;
+    private Adaptador adaptador;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pregunta_radio);
+        setContentView(R.layout.activity_activity_pregunta);
 
-        RadioButton rb = new RadioButton(this);
-        rb.setText("");
-        rb.setX(50);
-        rb.setY(100);
+        adaptador = new Adaptador(getSupportFragmentManager());
+
+        //paginador = new ViewPager(getApplicationContext());
+        //paginador.setAdapter(adaptador);
+
+        //BBDD.getBBDD().setContext(this);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_pregunta_radio, menu);
+        getMenuInflater().inflate(R.menu.menu_activity_pregunta, menu);
         return true;
     }
 
